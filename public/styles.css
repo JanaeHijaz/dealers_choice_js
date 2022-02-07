@@ -1,0 +1,25 @@
+/*
+Add images, main background image and center elements
+*/
+
+body {
+  background-image: url(cp_main2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .albumList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+a {
+  color: red;
+}
